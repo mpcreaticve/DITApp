@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "110659028570",
+    "firebase_url": "https://dit-app-dad7d.firebaseio.com",
+    "project_id": "dit-app-dad7d",
+    "storage_bucket": "dit-app-dad7d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:110659028570:android:ae28a90424f492fb42fa63",
+        "android_client_info": {
+          "package_name": "com.mpcreativesoftware.dit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "110659028570-7t10e7gnavm726a8akk6p0ks2rkcevtn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mpcreativesoftware.dit",
+            "certificate_hash": "86fc95c0feb9db296c791ef5de7c9e4c6ccc2299"
+          }
+        },
+        {
+          "client_id": "110659028570-9hre461vlcpkcvs9hk7nl2k8smua8rpv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mpcreativesoftware.dit",
+            "certificate_hash": "99c7f3db75df3eef411d6447450a7cf5e3364c30"
+          }
+        },
+        {
+          "client_id": "110659028570-son7aucdkmq0a4g3mtjhicecs95mnen6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXs7huljdTeoqbEKl3Eza_SjjRux_vMGc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "110659028570-son7aucdkmq0a4g3mtjhicecs95mnen6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

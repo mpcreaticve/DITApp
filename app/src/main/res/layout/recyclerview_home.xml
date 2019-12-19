@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        app:layout_constraintCircleRadius="20dp"
+        app:cardCornerRadius="5dp"
+       android:layout_margin="10dp"
+        android:elevation="20dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="25/06/2019"
+                android:textColor="@android:color/black"
+                app:layout_constraintLeft_toRightOf="parent"
+                app:layout_constraintRight_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="BarodaBank"
+                android:layout_marginLeft="5dp"
+                android:textAllCaps="true"
+                android:textColor="#510355"
+                android:textStyle="bold"
+                android:typeface="normal"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_date" />
+
+            <TextView
+                android:id="@+id/tv_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:padding="5dp"
+                android:text="nce"
+                android:textAllCaps="true"
+                android:textColor="#373A53"
+                android:textStyle="bold"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_date" />
+
+            <TextView
+                android:id="@+id/tv_buy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Buy"
+                android:layout_marginLeft="5dp"
+
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_type" />
+
+            <TextView
+                android:id="@+id/tv_buyPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="$120"
+                android:layout_marginRight="5dp"
+
+                android:textColor="@android:color/black"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_type" />
+
+            <TextView
+                android:id="@+id/tv_sellRange"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="SELL Range"
+                android:layout_marginLeft="5dp"
+
+                android:textColor="@android:color/black"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_buyPrice" />
+
+            <TextView
+                android:id="@+id/tv_sellRangePrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="120-520"
+                android:layout_marginRight="5dp"
+                android:textColor="@android:color/black"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_buyPrice" />
+
+            <TextView
+                android:id="@+id/tv_sell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Stop Loss"
+                android:textAllCaps="true"
+                android:layout_marginLeft="5dp"
+
+                android:textColor="@android:color/black"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_sellRange" />
+
+            <TextView
+                android:id="@+id/tv_sellPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="$120"
+                android:layout_marginRight="5dp"
+                android:textColor="@android:color/black"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_sellRange" />
+
+            <TableLayout
+                android:id="@+id/tbl_Rate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintTop_toBottomOf="@+id/tv_sell">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@color/colorAccent"
+                    android:padding="4dp"
+                    android:weightSum="3">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Target"
+                        android:textColor="@android:color/white" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Price"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Status"
+                        android:textColor="@android:color/white" />
+                </TableRow>
+
+
+            </TableLayout>
+
+            <TextView
+                android:padding="7dp"
+                android:background="@color/green"
+                android:id="@+id/tv_status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="New Product Form"
+                android:textColor="@android:color/white"
+                android:textSize="15dip"
+                android:typeface="serif"
+                app:layout_constraintTop_toBottomOf="@+id/tbl_Rate" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

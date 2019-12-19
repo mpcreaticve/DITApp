@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_notification1"
+        android:icon="@drawable/ic_more"
+        android:title=""
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/ic_video"
+                android:icon="@drawable/ic_video"
+                android:title="Video" />
+            <item
+                android:id="@+id/ic_Notification"
+                android:icon="@drawable/ic_notification"
+                android:title="Notification" />
+            <item
+                android:id="@+id/ic_Logout"
+                android:icon="@drawable/ic_login"
+                android:title="Logout" />
+            <item
+                android:id="@+id/ic_user"
+                android:icon="@drawable/ic_login"
+                android:title="0" />
+        </menu>
+
+    </item>
+
+
+</menu>

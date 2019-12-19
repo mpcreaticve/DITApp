@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/ic_home"
+        android:title="Home"
+        android:icon="@drawable/ic_home" />
+
+    <item
+        android:id="@+id/ic_rules"
+        android:title="Rules"
+        android:icon="@drawable/ic_rules" />
+
+    <item
+        android:id="@+id/ic_declaimber"
+        android:title="Disclaimber"
+        android:icon="@drawable/ic_desclimber" />
+
+    <item
+        android:id="@+id/ic_information"
+        android:title="Information"
+        android:icon="@drawable/ic_info" />
+    <item
+        android:id="@+id/ic_youtub"
+        android:title="Video"
+        android:icon="@drawable/ic_video" />
+</menu>

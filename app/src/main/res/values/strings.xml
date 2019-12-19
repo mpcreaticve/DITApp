@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Daily Intraday Tips</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="default_notification_channel_id">1090849094557</string>
+    <string name="update_downloaded">Update Application</string>
+
+    <string name="my_own_title">Rate us</string>
+
+    <string name="my_own_message">If you enjoy using Daily Intraday Tips, Please take a moment to rate it. Thanks for your support.</string>
+
+    <string name="my_own_rate">Rate Now</string>
+
+    <!-- customer details renewal note-->
+    <string name="my_own_thanks">No, Thanks</string>
+    <string name="my_own_cancel">Later</string>
+    <string name="thumbnail_image_view_desc">Youtube Video thumbnail image view</string>
+    <string name="desclimber">Disclimber</string>
+    <string name="rules">Rules</string>
+    <string name="main">Main</string>
+    <string name="video">Video</string>
+    <string name="information">Information</string>
+
+    <string-array name="video_id_array">
+        <item>CqhpNxI8qYw</item>
+        <item>sasCrpgHDy8</item>
+        <item>iJeh3x09Ya8</item>
+        <item>B5zRaD7B504</item>
+        <item>9qWHzj8k-Uo</item>
+        <item>RjiK45wC924</item>
+        <item>RH3zaLO8H4E</item>
+        <item>o14pyzosjvk</item>
+        <item>5SQrpBQne7A</item>
+        <item>5WJ3r67ORxo</item>
+    </string-array>
+</resources>

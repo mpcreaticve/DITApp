@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/youtube_row_card_view"
+    android:layout_width="180dp"
+    android:layout_height="130dp"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="4dp">
+    <!-- youtube thumbnail view to show the thumbnail of videos -->
+    <com.google.android.youtube.player.YouTubeThumbnailView
+        android:id="@+id/video_thumbnail_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/darker_gray"
+        android:contentDescription="@string/thumbnail_image_view_desc"
+        android:scaleType="centerCrop" />
+</androidx.cardview.widget.CardView>
